@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200&family=IBM+Plex+Sans+Arabic:wght@200&family=Lato:wght@300&family=Noto+Sans:wght@300&family=Raleway:wght@200&family=Roboto:wght@100&display=swap');
+
+body{
+    background-color: #2C3639 !important;
+}
+.forms{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+.toSearch{
+    display: flex;
+    align-items: center;
+}
+.toSearch input{
+    outline: none;
+    border: 1px solid white;
+    border-radius: 2px;
+    padding: 3px 7px;
+    font-size: 18px;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    width: 375px;
+    font-weight: 600;
+}
+.toSearch button{
+    background-color: #1363DF;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    font-size: 17.5px;
+    margin-left: -37px;
+}
+.toFilter select{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 15px;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    font-weight: 600;
+    outline: none;
+}
+
+
+.product-box{
+    display: block;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+    margin: 25px auto;
+}
+.product-box .image{
+    height: 275px;
+    overflow: hidden;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+}
+.description{
+    text-align: center;
+}
+.description h3{
+    font-size: 20px;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.description .title{
+    color: white !important;
+    margin-top: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.decrp{
+    font-size: 16px !important;
+    color: aliceblue;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer .moreBtn{
+    padding: 7px 25px;
+    background-color: #1363DF;
+    border-radius: 15px;
+    color: white;
+    border: none;
+    outline: none;
+    margin-top: 15px;
+    font-family: 'Anek Malayalam', sans-serif;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+
+.one-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.one-box .images{
+    text-align: center;
+}
+.one-box .images .body{
+    width: 90%;
+    height: auto;
+    text-align: center;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.body img{
+    margin: 0 auto;
+}
+.one-box .images .footer-img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 15px;
+}
+.footer-img img{
+    width: 75px;
+    height: 75px;
+}
+
+.productinform{
+    margin-left: 150px;
+    color: white;
+    list-style: none;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900 !important;
+    letter-spacing: 1.2px;
+    
+}
+.productinform li{
+    margin-top: 15px;
+    transition: linear 0.3s !important;
+    font-weight: bolder;
+}
+.productinform li:hover{
+    transform: scale(1.1);
+}
+
+.pagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 35px auto;
+}
+.pagination button{
+    border-radius: 4px;
+    background-color: white;
+    border: none;
+    outline: none;
+    padding: 5px;
+    font-size: 18px;
+    color: #1363DF;
+    margin: 0 5px;
+    cursor: pointer;
+}

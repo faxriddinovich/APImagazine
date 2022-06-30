@@ -1,0 +1,441 @@
+@media (min-width:270px) and (max-width:330px) {
+    .forms{
+        display: block;
+        align-items: center;
+    }
+    .forms .toSearch .search-bar{
+        width: 170px !important;
+        height: 20px;
+        padding-left: 5px;
+        font-size: 10px;
+    }
+    .toSearch button{
+        font-size: 10px;
+        padding: 3px 5px;
+        margin-left: -19.5px;
+    }
+    .forms .toFilter select{
+        width: 170px;
+        height: 20px;
+        font-size: 10px;
+        padding: 0%;
+        margin-top: 15px;
+    }
+    .product-box .image{
+        width: 200px;
+        height: auto;
+        margin: 0 auto;
+    }
+    .product-box .image img{
+        width: 295px;
+        height: auto;
+    }
+    .product-box .description{
+        width: 200px;
+        margin: 0 auto;
+    }
+    .description .title{
+        font-size: 13px !important;
+    }
+    .description .decrp{
+        font-size: 10px !important;
+    }
+    .product-box .footer{
+        width: 200px !important;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        justify-content: center;
+    }
+    .footer .moreBtn{
+        width: 75px !important;
+        font-size: 10px !important;
+        padding: 0%;
+        margin-top: 0%;
+        padding: 5px 10px;
+    }
+
+    .pagination{
+        width: 200px !important;
+        display: flex;
+        flex-wrap: nowrap;
+        margin-left: 25px ;
+    }
+    .pagination button{
+        width: 20px !important;
+        height: 20px !important;
+        font-size: 10px !important;
+        padding: 0% !important;
+    }
+    .borderer{
+        width: 150px !important;
+    }
+}
+
+
+@media (min-width:331px) and (max-width:400px) {
+    .forms{
+        display: flex;
+        align-items: center;
+    }
+    .forms .toSearch .search-bar{
+        width: 130px;
+        height: 20px;
+        padding-left: 5px;
+        font-size: 10px;
+    }
+    .toSearch button{
+        font-size: 10px;
+        padding: 3px 5px;
+        margin-left: -19.5px;
+    }
+    .forms .toFilter select{
+        width: 130px;
+        height: 20px;
+        font-size: 10px;
+        padding: 0%;
+    }
+    .product-box .image{
+        width: 250px;
+        height: auto;
+        margin: 0 auto;
+    }
+    .product-box .image img{
+        width: 245px;
+        height: 245px;
+    }
+    .product-box .description{
+        width: 250px;
+        margin: 0 auto;
+    }
+    .description .title{
+        font-size: 19px !important;
+    }
+    .description .decrp{
+        font-size: 17px !important;
+    }
+    .product-box .footer{
+        width: 250px !important;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        justify-content: center;
+    }
+    .footer .moreBtn{
+        width: 90px !important;
+        font-size: 13px !important;
+        padding: 0%;
+        margin-top: 0%;
+        padding: 5px 10px;
+    }
+
+    .pagination{
+        width: 250px !important;
+        display: flex;
+        flex-wrap: nowrap;
+        margin-top: 0px;
+        margin-bottom: 25px;
+        justify-content: center;
+        margin-left: 50px;
+    }
+    .pagination button{
+        width: 20px !important;
+        height: 20px !important;
+        font-size: 10px !important;
+        padding: 0% !important;
+    }
+    .borderer{
+        width: 150px !important;
+    }
+}
+
+@media (min-width:401px) and (max-width:475px) {
+    .forms{
+        display: flex;
+        align-items: center;
+    }
+    .forms .toSearch .search-bar{
+        width: 200px !important;
+        height: 20px;
+        padding-left: 5px;
+        font-size: 10px;
+    }
+    .toSearch button{
+        font-size: 10px;
+        padding: 3px 5px;
+        margin-left: -19.5px;
+    }
+    .forms .toFilter select{
+        width: 170px !important;
+        height: 20px;
+        font-size: 10px;
+        padding: 0%;
+    }
+    .product-box .image{
+        width: 300px;
+        height: auto;
+        margin: 0 auto;
+    }
+    .product-box .image img{
+        width: 245px;
+        height: 245px;
+    }
+    .product-box .description{
+        width: 250px;
+        margin: 0 auto;
+    }
+    .description .title{
+        font-size: 19px !important;
+    }
+    .description .decrp{
+        font-size: 17px !important;
+    }
+    .product-box .footer{
+        width: 250px !important;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        justify-content: center;
+    }
+    .footer .moreBtn{
+        width: 90px !important;
+        font-size: 13px !important;
+        padding: 0%;
+        margin-top: 0%;
+        padding: 5px 10px;
+    }
+
+    .pagination{
+        width: 300px !important;
+        display: flex;
+        flex-wrap: nowrap;
+        margin-top: 0px;
+        justify-content: center;
+        margin: 10px auto !important;
+    }
+    .pagination button{
+        width: 20px !important;
+        height: 20px !important;
+        font-size: 10px !important;
+        padding: 0% !important;
+    }
+}
+
+
+@media (min-width:476px) and (max-width:500px) {
+    .forms{
+        display: flex;
+        align-items: center;
+    }
+    .forms .toSearch .search-bar{
+        width: 200px;
+        height: 20px;
+        padding-left: 5px;
+        font-size: 10px;
+    }
+    .toSearch button{
+        font-size: 10px;
+        padding: 3px 5px;
+        margin-left: -19.5px;
+    }
+    .forms .toFilter select{
+        width: 130px;
+        height: 20px;
+        font-size: 10px;
+        padding: 0%;
+    }
+    .product-box .image{
+        width: 250px;
+        height: auto;
+        margin: 0 auto;
+    }
+    .product-box .image img{
+        width: 245px;
+        height: 245px;
+    }
+    .product-box .description{
+        width: 250px;
+        margin: 0 auto;
+    }
+    .description .title{
+        font-size: 19px !important;
+    }
+    .description .decrp{
+        font-size: 17px !important;
+    }
+    .product-box .footer{
+        width: 250px !important;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        justify-content: center;
+    }
+    .footer .moreBtn{
+        width: 90px !important;
+        font-size: 13px !important;
+        padding: 0%;
+        margin-top: 0%;
+        padding: 5px 10px;
+    }
+
+    .pagination{
+        width: 250px !important;
+        display: flex;
+        flex-wrap: nowrap;
+        margin-top: 0px;
+        margin-bottom: 25px;
+        justify-content: center;
+        margin-left: 75px;
+    }
+    .pagination button{
+        width: 20px !important;
+        height: 20px !important;
+        font-size: 10px !important;
+        padding: 0% !important;
+    }
+}
+
+@media (min-width:501px) and (max-width:570px) {
+    .forms{
+        display: flex;
+        align-items: center !important;
+    }
+    .forms .toSearch .search-bar{
+        width: 225px;
+        height: 20px;
+        padding: 10px 5px;
+        font-size: 14px;
+    }
+    .toSearch button{
+        font-size: 11px;
+        padding: 4px 5px;
+        margin-left: -19px;
+        margin-top: 0%;
+    }
+    .forms .toFilter select{
+        width: 200px;
+        height: 20px;
+        font-size: 10px;
+        padding: 3px 5px;
+    }
+    .product-box .image{
+        width: 400px;
+        height: auto;
+        margin: 0 auto;
+    }
+    .product-box .image img{
+        width: 395px;
+        height: 395px;
+    }
+    .product-box .description{
+        width: 400px;
+        margin: 0 auto;
+    }
+    .description .title{
+        font-size: 25px !important;
+    }
+    .description .decrp{
+        font-size: 22px !important;
+    }
+    .product-box .footer{
+        width: 400px !important;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        justify-content: center;
+    }
+    .footer .moreBtn{
+        width: 120px !important;
+        font-size: 17px !important;
+        margin-top: 15px;
+        padding: 15px 20px;
+    }
+
+    .pagination{
+        width: 400px !important;
+        display: flex;
+        flex-wrap: nowrap;
+        margin-top: 0px;
+        margin-bottom: 25px;
+        justify-content: center;
+    }
+    .pagination button{
+        width: 30px !important;
+        height: 30px !important;
+        font-size: 15px !important;
+        padding: 0% !important;
+    }
+}
+
+@media (min-width:640px) and (max-width:770px) {
+    .forms{
+        display: flex;
+        align-items: center !important;
+        justify-content: space-between !important;
+    }
+    .forms .toSearch .search-bar{
+        width: 255px;
+        height: 30px;
+        padding: 10px 5px;
+        font-size: 14px;
+    }
+    .toSearch button{
+        font-size: 15px;
+        padding: 5px 15px;
+        margin-left: -45px;
+        margin-top: 0%;
+    }
+    .forms .toFilter select{
+        width: 200px;
+        height: 30px;
+        font-size: 15px;
+        padding: 5px 7px;
+    }
+    .product-box .image{
+        width: 400px;
+        height: auto;
+        margin: 0 auto;
+    }
+    .product-box .image img{
+        width: 395px;
+        height: 395px;
+    }
+    .product-box .description{
+        width: 400px;
+        margin: 0 auto;
+    }
+    .description .title{
+        font-size: 25px !important;
+    }
+    .description .decrp{
+        font-size: 22px !important;
+    }
+    .product-box .footer{
+        width: 400px !important;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        justify-content: center;
+    }
+    .footer .moreBtn{
+        width: 120px !important;
+        font-size: 17px !important;
+        margin-top: 15px;
+        padding: 15px 20px;
+    }
+
+    .pagination{
+        width: 400px !important;
+        display: flex;
+        flex-wrap: nowrap;
+        margin-top: 0px;
+        margin-bottom: 25px;
+        justify-content: center;
+    }
+    .pagination button{
+        width: 30px !important;
+        height: 30px !important;
+        font-size: 15px !important;
+        padding: 0% !important;
+    }
+}
