@@ -11,6 +11,7 @@ function Content({state,getOneProduct,number,getDataByPage,categoryName,getFirst
     let navigate = useNavigate();
     function getItem(ID){
         getOneProduct(ID)
+        localStorage.setItem('oneProductID',ID)
         navigate(`/api/product/${ID}`)
     }
 

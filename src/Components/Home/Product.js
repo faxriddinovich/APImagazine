@@ -1,21 +1,27 @@
 import React, { useEffect } from 'react'
 import { connect } from 'react-redux'
+import { getOneProduct } from '../Reducer/Reducer'
+import './responsive.css'
+import './style.css'
 
-function Product({data}) {
+function Product({data,getOneProduct}) {
   useEffect(()=>{
+    let ID=localStorage.getItem("oneProductID")
+    console.log(ID)
+    getOneProduct(ID)
     console.log(data)
   },[])
     return (
     <div className='container'>
         <div className='row'>
             <div className='col-md-12'>
-                <div className='one-box'>
+                {data ? <div className='one-box'>
                     <div className='images'>
                         <div className='body'>
                             <img src={data.thumbnail} alt="Logo" />
                         </div>
                         <div className='footer-img'>
-                            {/* {data ? data.images.map((item,index)=><img src={item} alt="Brend logo" key={index} className='rounded' />) : ""} */}
+                            {data.images.map((item,index)=><img src={item} alt="Brend logo" key={index} className='rounded' />)}
                         </div>
                     </div>
                     <div className='about-product'>
@@ -44,11 +50,11 @@ function Product({data}) {
                             </li>
                         </ul>
                     </div>
-                </div>
+                </div> : ""}
             </div>
         </div>
     </div>
   )
 }
 
-export default connect(state=>({data:state.users.item}))(Product)
+export default connect(state=>({data:state.users.item}),{getOneProduct})(Product)

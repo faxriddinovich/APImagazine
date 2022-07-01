@@ -4,7 +4,7 @@ import { action } from "../Action/Action";
 const initialState={
     products:[],
     category:[],
-    item:[],
+    item:"",
     page:[]
 }
 const Reducer=createSlice({
