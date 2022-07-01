@@ -12,7 +12,6 @@ const Reducer=createSlice({
     initialState,    
     reducers:{
         getData:(state,action)=>{
-            state.products=action.payload.products
             state.page=[]
             for(let i=1; i<=Math.ceil(action.payload.products.length/3);i++){
                 state.page.push(i)
