@@ -70,24 +70,43 @@
     .borderer{
         width: 150px !important;
     }
-
-
+    
+    
     .one-box{
-        display: block !important;
-        width: 360px !important;
-        margin: 0 auto;
+        display: block;
+        width: 250px;
+        /* margin: 10px auto; */
     }
-    .one-box .images{
-        width: 98% !important;
-        margin: 0 auto;
+    .images{
+        width: 235px;
+        margin: 10px auto;
     }
-    .one-box .about-product{
+    .images .body{
+        width: 220px !important;
         text-align: left;
-        display: flex;
-        justify-content: left;
+    }
+    .body img{
+        width: 150px;
+        height: auto;
+    }
+    .one-box .footer-img{
+        width: 235px !important;
+        margin: 0;
+    }
+    .footer-img img {
+        width: 35px;
+        height: 35px;
+    }
+    .about-product{
+        width: 235px;
     }
     .about-product .productinform{
-        margin-left: 5px;
+        width: 220px;
+        margin-left: 0px;
+    }
+    .productinform li{
+        margin-top: 10px;
+        font-size: 11px;
     }
 }
 
@@ -169,6 +188,43 @@
     .about-product .productinform{
         margin-left: 5px;
     }
+
+    .one-box{
+        display: block;
+        width: 350px;
+    }
+    .images{
+        width: 335px;
+        margin: 10px auto;
+    }
+    .images .body{
+        width: 320px !important;
+        text-align: left;
+    }
+    .body img{
+        width: 200px;
+        height: auto;
+    }
+    .one-box .footer-img{
+        width: 335px !important;
+        margin: 0;
+    }
+    .footer-img img {
+        width: 45px;
+        height: 45px;
+    }
+    .about-product{
+        width: 235px;
+        margin-top: 15px;
+    }
+    .about-product .productinform{
+        width: 220px;
+        margin-left: 0px;
+    }
+    .productinform li{
+        margin-top: 10px;
+        font-size: 11px !important;
+    }
 }
 
 @media (min-width:401px) and (max-width:475px) {
@@ -244,6 +300,44 @@
     .about-product .productinform{
         margin-left: 5px;
     }
+
+
+    .one-box{
+        display: block;
+        width: 400px;
+    }
+    .images{
+        width: 390px;
+        margin: 10px auto;
+    }
+    .images .body{
+        width: 370px !important;
+        text-align: left;
+    }
+    .body img{
+        width: 250px;
+        height: auto;
+    }
+    .one-box .footer-img{
+        width: 390px !important;
+        margin: 0;
+    }
+    .footer-img img {
+        width: 50px;
+        height: 50px;
+    }
+    .about-product{
+        width: 235px;
+        margin-top: 15px;
+    }
+    .about-product .productinform{
+        width: 220px;
+        margin-left: 0px;
+    }
+    .productinform li{
+        margin-top: 10px;
+        font-size: 11px !important;
+    }
 }
 
 
@@ -318,8 +412,42 @@
         font-size: 10px !important;
         padding: 0% !important;
     }
+
+    .one-box{
+        display: block;
+        width: 400px;
+    }
+    .images{
+        width: 390px;
+        margin: 10px auto;
+    }
+    .images .body{
+        width: 370px !important;
+        text-align: left;
+    }
+    .body img{
+        width: 250px;
+        height: auto;
+    }
+    .one-box .footer-img{
+        width: 390px !important;
+        margin: 0;
+    }
+    .footer-img img {
+        width: 50px;
+        height: 50px;
+    }
+    .about-product{
+        width: 235px;
+        margin-top: 15px;
+    }
     .about-product .productinform{
-        margin-left: 5px;
+        width: 220px;
+        margin-left: 0px;
+    }
+    .productinform li{
+        margin-top: 10px;
+        font-size: 11px !important;
     }
 }
 
@@ -393,8 +521,43 @@
         font-size: 15px !important;
         padding: 0% !important;
     }
+
+
+    .one-box{
+        display: block;
+        width: 490px;
+    }
+    .images{
+        width: 485px;
+        margin: 10px auto;
+    }
+    .images .body{
+        width: 470px !important;
+        text-align: left;
+    }
+    .body img{
+        width: 100%;
+        height: auto;
+    }
+    .one-box .footer-img{
+        width: 485px !important;
+        margin: 0;
+    }
+    .footer-img img {
+        width: 65px;
+        height: 65px;
+    }
+    .about-product{
+        width: 485px;
+        margin-top: 15px;
+    }
     .about-product .productinform{
-        margin-left: 5px;
+        width: 420px;
+        margin-left: 0px;
+    }
+    .productinform li{
+        margin-top: 10px;
+        font-size: 15px !important;
     }
 }
 

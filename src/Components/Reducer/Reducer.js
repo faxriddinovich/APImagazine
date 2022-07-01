@@ -43,7 +43,6 @@ const Reducer=createSlice({
         },
         getPagenationData:(state,action)=>{
             state.products=action.payload.products
-            // console.log(state.products)
         }
     }
 

@@ -7,9 +7,7 @@ import './style.css'
 function Product({data,getOneProduct}) {
   useEffect(()=>{
     let ID=localStorage.getItem("oneProductID")
-    console.log(ID)
     getOneProduct(ID)
-    console.log(data)
   },[])
     return (
     <div className='container'>
